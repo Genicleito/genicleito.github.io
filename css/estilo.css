@@ -37,7 +37,7 @@ header#cabecalho {
     border-bottom: 1px #606060 solid;
     height: 320px;
     /*margin-top: 0p;*/
-    background: url("../imagens/foto.png") no-repeat 0px 150px;
+    /*background: url("../imagens/foto.png") no-repeat 0px 150px;*/
 }
 
 header#cabecalho h1 {
