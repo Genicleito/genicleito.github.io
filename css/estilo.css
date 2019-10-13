@@ -57,6 +57,12 @@ header#cabecalho h2 {
     margin-top: 0px;
 }
 
+figure.my-picture img {
+    width: 150px;
+    height: 150px;
+    padding-left: 0px;
+}
+
 /* Formatação de imagens com legendas */
 
 figure.foto-legenda {
@@ -98,7 +104,8 @@ nav#menu {
 nav#menu ul {
     list-style: none;
     text-transform: uppercase;
-    padding-left: 260px;
+    padding-left: 0px;
+    /* padding-left: 260px; */
     /*position: absolute;*/
     /*margin: 30px auto auto auto;*/
     /*box-shadow: 1px 1px 4px black;*/
