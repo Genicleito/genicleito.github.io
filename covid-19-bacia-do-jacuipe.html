@@ -86,7 +86,12 @@
         </aside>
         
         <footer id="rodape">
-            <p>&copy; 2020 - Genicleito Gonçalves <br><a href="http://goo.gl/P14zon" target="_blank">GitHub</a> | <a href="https://www.linkedin.com/in/genicleito/" target="_blank">LinkedIn</a> | <a href="https://twitter.com/genicleito" target="_blank">Twitter</a></p>
+            <p>&copy; <span id='year_foot'></span> - Genicleito Gonçalves <br><a href="http://goo.gl/P14zon" target="_blank">GitHub</a> | <a href="https://www.linkedin.com/in/genicleito/" target="_blank">LinkedIn</a> | <a href="https://twitter.com/genicleito" target="_blank">Twitter</a></p>
+
+            <script>
+                year = new Date(document.lastModified).getUTCFullYear()
+                document.getElementById("year_foot").innerHTML = year;
+            </script>
         </footer>
         
     </div>
